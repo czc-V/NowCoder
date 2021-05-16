@@ -14,6 +14,9 @@ public class Test1 {
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
 
+        //关闭scanner流
+        scanner.close();
+
         //初始化输入数组
         int a[][]={
                 {1,2,8,9},

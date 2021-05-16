@@ -15,6 +15,10 @@ public class Test2 {
         Scanner scanner=new Scanner(System.in);
 
         String s=scanner.nextLine();
+
+        //关闭scanner流
+        scanner.close();
+
         Test2 test2=new Test2();
         System.out.println(test2.replaceSpace(s));
         System.out.println(test2.replaceSpace1(s));
